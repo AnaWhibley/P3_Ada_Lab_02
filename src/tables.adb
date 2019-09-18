@@ -37,10 +37,24 @@ package body Tables is
       return Integer'First;
    end Linear_Search;
 
-   function Binary_Search
+
+function Binary_Search
      (Table : T_Table; Value : Integer) return Integer is
+      firstIndex : Integer := Table'First;
+      lastIndex : Integer := Table'Last;
+      midIndex : Integer;
    begin
-      return 0;
+      while firstIndex <= lastIndex loop
+         midIndex := (firstIndex + lastIndex) / 2;
+         if Table(midIndex) < Value then
+            firstIndex := midIndex + 1;
+         elsif Table(midIndex) > Value then
+            lastIndex := midIndex - 1;
+         else
+            return midIndex;
+         end if;
+      end loop;
+      return Integer'First;
    end Binary_Search;
 
    procedure Swap

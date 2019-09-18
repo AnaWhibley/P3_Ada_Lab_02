@@ -15,13 +15,13 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U tables%b		tables.adb		16bc706b NE OO PK
+U tables%b		tables.adb		35584fca NE OO PK
 
 U tables%s		tables.ads		7c0b37a8 EE NE OO PK
 
 D system.ads		20190518041258 32a08138 system%s
 D tables.ads		20190918174810 7c0b37a8 tables%s
-D tables.adb		20190918183948 6ab747c3 tables%b
+D tables.adb		20190918190816 49537862 tables%b
 G a e
 G c Z s b [minimum tables 13 13 none]
 G c Z s b [pos_minimum tables 16 13 none]
@@ -37,10 +37,10 @@ G c Z s b [merge_sort tables 54 14 none]
 G c Z s b [quick_sort tables 57 14 none]
 G c Z s s [t_tableIP tables 11 9 none]
 X 2 tables.ads
-9K9*Tables 60l5 60e11 3|1b14 91l5 91t11
+9K9*Tables 60l5 60e11 3|1b14 105l5 105t11
 11A9*T_Table(integer)<integer> 13r30 16r34 20r15 26r15 37r22 42r42 45r45
-. 48r45 51r41 54r41 57r41 3|3r30 15r34 30r15 41r15 54r22 61r42 66r45 71r45
-. 76r41 81r41 86r41
+. 48r45 51r41 54r41 57r41 3|3r30 15r34 30r15 42r15 68r22 75r42 80r45 85r45
+. 90r41 95r41 100r41
 13V13*Minimum{integer} 13>22 3|3b13 13l8 13t15
 13a22 Table{11A9} 3|3b22 4r24 7r16 8r13 9r20
 16V13*Pos_Minimum{natural} 16>26 3|15b13 27l8 27t19
@@ -48,28 +48,28 @@ X 2 tables.ads
 19V13*Linear_Search{integer} 20>7 20>24 3|29b13 38l8 38t21
 20a7 Table{11A9} 3|30b7 32r16 33r13
 20i24 Value{integer} 3|30b24 33r24
-25V13*Binary_Search{integer} 26>7 26>24 3|40b13 44l8 44t21
-26a7 Table{11A9} 3|41b7
-26i24 Value{integer} 3|41b24
-31U14*Swap 32=7 33=7 3|46b14 51l8 51t12
-32i7 A{integer} 3|47b7
-33i7 B{integer} 3|48b7
-36U14*Swap 37=7 38>7 39>7 3|53b14 59l8 59t12
-37a7 Table{11A9} 3|54b7
-38i7 Pos_1{natural} 3|55b7
-39i7 Pos_2{natural} 3|56b7
-42U14*Bubble_Sort 42=27 3|61b14 64l8 64t19
-42a27 Table{11A9} 3|61b27
-45U14*Selection_Sort 45=30 3|66b14 69l8 69t22
-45a30 Table{11A9} 3|66b30
-48U14*Insertion_Sort 48=30 3|71b14 74l8 74t22
-48a30 Table{11A9} 3|71b30
-51U14*Shell_Sort 51=26 3|76b14 79l8 79t18
-51a26 Table{11A9} 3|76b26
-54U14*Merge_Sort 54=26 3|81b14 84l8 84t18
-54a26 Table{11A9} 3|81b26
-57U14*Quick_Sort 57=26 3|86b14 89l8 89t18
-57a26 Table{11A9} 3|86b26
+25V13*Binary_Search{integer} 26>7 26>24 3|41b10 58l8 58t21
+26a7 Table{11A9} 3|42b7 43r31 44r30 49r13 51r16
+26i24 Value{integer} 3|42b24 49r31 51r34
+31U14*Swap 32=7 33=7 3|60b14 65l8 65t12
+32i7 A{integer} 3|61b7
+33i7 B{integer} 3|62b7
+36U14*Swap 37=7 38>7 39>7 3|67b14 73l8 73t12
+37a7 Table{11A9} 3|68b7
+38i7 Pos_1{natural} 3|69b7
+39i7 Pos_2{natural} 3|70b7
+42U14*Bubble_Sort 42=27 3|75b14 78l8 78t19
+42a27 Table{11A9} 3|75b27
+45U14*Selection_Sort 45=30 3|80b14 83l8 83t22
+45a30 Table{11A9} 3|80b30
+48U14*Insertion_Sort 48=30 3|85b14 88l8 88t22
+48a30 Table{11A9} 3|85b30
+51U14*Shell_Sort 51=26 3|90b14 93l8 93t18
+51a26 Table{11A9} 3|90b26
+54U14*Merge_Sort 54=26 3|95b14 98l8 98t18
+54a26 Table{11A9} 3|95b26
+57U14*Quick_Sort 57=26 3|100b14 103l8 103t18
+57a26 Table{11A9} 3|100b26
 X 3 tables.adb
 4i7 min{integer} 8r24 9m13 12r14
 7i11 I{integer} 8r19 9r26
@@ -77,4 +77,7 @@ X 3 tables.adb
 18i7 pos{integer} 23m13 26r14
 20i11 I{integer} 21r19 22r26 23r20
 32i11 I{integer} 33r19 34r20
+43i7 firstIndex{integer} 47r13 48r23 50m13
+44i7 lastIndex{integer} 47r27 48r36 52m13
+45i7 midIndex{integer} 48m10 49r19 50r27 51r22 52r26 54r20
 

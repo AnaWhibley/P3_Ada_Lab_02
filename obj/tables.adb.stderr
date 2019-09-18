@@ -1,2 +1,0 @@
-tables.adb:41:07: warning: formal parameter "Table" is not referenced
-tables.adb:41:24: warning: formal parameter "Value" is not referenced

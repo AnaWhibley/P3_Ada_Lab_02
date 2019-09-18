@@ -42,7 +42,7 @@ D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
 D tables.ads		20190918174810 7c0b37a8 tables%s
-D test_tables.adb	20190918181314 f79496d1 test_tables%b
+D test_tables.adb	20190918190720 f79496d1 test_tables%b
 G a e
 G c Z b b [main standard 7 11 none]
 G r c none [main standard 7 11 none] [test_tables standard 8 11 none]
