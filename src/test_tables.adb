@@ -46,7 +46,7 @@ procedure Test_Tables is
    procedure Test_5 is
       Table : constant T_Table (1 .. 5) := (1, 4, 3, 2, 5);
    begin
-      Put ("Test_5: Minimum ......................... ");
+      Put ("Test_5: Pos_Minimum ......................... ");
 
       pragma Assert (Pos_Minimum (Table) = 1);
       Put_Line ("OK");
@@ -55,7 +55,7 @@ procedure Test_Tables is
    procedure Test_6 is
       Table : constant T_Table (1 .. 5) := (5, 4, 1, 2, 3);
    begin
-      Put ("Test_6: Minimum ......................... ");
+      Put ("Test_6: Pos_Minimum ......................... ");
 
       pragma Assert (Pos_Minimum (Table) = 3);
       Put_Line ("OK");

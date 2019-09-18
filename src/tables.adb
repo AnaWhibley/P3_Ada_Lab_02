@@ -1,13 +1,29 @@
 package body Tables is
 
    function Minimum (Table : T_Table) return Integer is
+      min : Integer := Table(1);
+      --min : Integer := Table(Table'First);
    begin
-      return 0;
+      for I in Table'Range loop
+         if Table(I) < min then
+            min := Table(I);
+         end if;
+      end loop;
+      return min;
    end Minimum;
 
    function Pos_Minimum (Table : T_Table) return Natural is
+      min : Integer := Table(1);
+      --min : Integer := Table(Table'First);
+      pos : Integer := 1;
    begin
-      return 0;
+      for I in Table'Range loop
+         if Table(I) < min then
+            min := Table(I);
+            pos := I;
+         end if;
+      end loop;
+      return pos;
    end Pos_Minimum;
 
    function Linear_Search

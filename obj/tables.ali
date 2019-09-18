@@ -1,0 +1,79 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnato
+A -fstack-check=specific
+A -gnata
+A -gnat12
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tables%b		tables.adb		6638bc05 NE OO PK
+
+U tables%s		tables.ads		7c0b37a8 EE NE OO PK
+
+D system.ads		20190518041258 32a08138 system%s
+D tables.ads		20190918174810 7c0b37a8 tables%s
+D tables.adb		20190918181230 1a338bad tables%b
+G a e
+G c Z s b [minimum tables 13 13 none]
+G c Z s b [pos_minimum tables 16 13 none]
+G c Z s b [linear_search tables 19 13 none]
+G c Z s b [binary_search tables 25 13 none]
+G c Z s b [swap tables 31 14 none]
+G c Z s b [swap tables 36 14 none]
+G c Z s b [bubble_sort tables 42 14 none]
+G c Z s b [selection_sort tables 45 14 none]
+G c Z s b [insertion_sort tables 48 14 none]
+G c Z s b [shell_sort tables 51 14 none]
+G c Z s b [merge_sort tables 54 14 none]
+G c Z s b [quick_sort tables 57 14 none]
+G c Z s s [t_tableIP tables 11 9 none]
+X 2 tables.ads
+9K9*Tables 60l5 60e11 3|1b14 86l5 86t11
+11A9*T_Table(integer)<integer> 13r30 16r34 20r15 26r15 37r22 42r42 45r45
+. 48r45 51r41 54r41 57r41 3|3r30 15r34 30r15 36r15 49r22 56r42 61r45 66r45
+. 71r41 76r41 81r41
+13V13*Minimum{integer} 13>22 3|3b13 13l8 13t15
+13a22 Table{11A9} 3|3b22 4r24 7r16 8r13 9r20
+16V13*Pos_Minimum{natural} 16>26 3|15b13 27l8 27t19
+16a26 Table{11A9} 3|15b26 16r24 20r16 21r13 22r20
+19V13*Linear_Search{integer} 20>7 20>24 3|29b13 33l8 33t21
+20a7 Table{11A9} 3|30b7
+20i24 Value{integer} 3|30b24
+25V13*Binary_Search{integer} 26>7 26>24 3|35b13 39l8 39t21
+26a7 Table{11A9} 3|36b7
+26i24 Value{integer} 3|36b24
+31U14*Swap 32=7 33=7 3|41b14 46l8 46t12
+32i7 A{integer} 3|42b7
+33i7 B{integer} 3|43b7
+36U14*Swap 37=7 38>7 39>7 3|48b14 54l8 54t12
+37a7 Table{11A9} 3|49b7
+38i7 Pos_1{natural} 3|50b7
+39i7 Pos_2{natural} 3|51b7
+42U14*Bubble_Sort 42=27 3|56b14 59l8 59t19
+42a27 Table{11A9} 3|56b27
+45U14*Selection_Sort 45=30 3|61b14 64l8 64t22
+45a30 Table{11A9} 3|61b30
+48U14*Insertion_Sort 48=30 3|66b14 69l8 69t22
+48a30 Table{11A9} 3|66b30
+51U14*Shell_Sort 51=26 3|71b14 74l8 74t18
+51a26 Table{11A9} 3|71b26
+54U14*Merge_Sort 54=26 3|76b14 79l8 79t18
+54a26 Table{11A9} 3|76b26
+57U14*Quick_Sort 57=26 3|81b14 84l8 84t18
+57a26 Table{11A9} 3|81b26
+X 3 tables.adb
+4i7 min{integer} 8r24 9m13 12r14
+7i11 I{integer} 8r19 9r26
+16i7 min{integer} 21r24 22m13
+18i7 pos{integer} 23m13 26r14
+20i11 I{integer} 21r19 22r26 23r20
+
