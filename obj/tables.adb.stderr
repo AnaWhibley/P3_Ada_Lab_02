@@ -1,4 +1,2 @@
-tables.adb:30:07: warning: formal parameter "Table" is not referenced
-tables.adb:30:24: warning: formal parameter "Value" is not referenced
-tables.adb:36:07: warning: formal parameter "Table" is not referenced
-tables.adb:36:24: warning: formal parameter "Value" is not referenced
+tables.adb:41:07: warning: formal parameter "Table" is not referenced
+tables.adb:41:24: warning: formal parameter "Value" is not referenced

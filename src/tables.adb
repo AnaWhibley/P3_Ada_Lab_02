@@ -29,7 +29,12 @@ package body Tables is
    function Linear_Search
      (Table : T_Table; Value : Integer) return Integer is
    begin
-      return 0;
+      for I in Table'Range loop
+         if Table(I) = Value then
+            return I;
+         end if;
+      end loop;
+      return Integer'First;
    end Linear_Search;
 
    function Binary_Search
