@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\tables.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\test_tables.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\tables.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\tables.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 3" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\tables.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\home\docencia\P3Lab\Working\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\home\docencia\P3Lab\Working\Ada_Lab_02\src\test_tables.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
