@@ -142,9 +142,9 @@ begin
    Test_3;
    Test_4;
    Test_5;
---     Test_6;
---     Test_7;
---     Test_8;
---     Test_9;
---     Test_10;
+   Test_6;
+   Test_7;
+   Test_8;
+   Test_9;
+   Test_10;
 end Test_Strings;

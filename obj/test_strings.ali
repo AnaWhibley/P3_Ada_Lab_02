@@ -18,7 +18,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U test_strings%b	test_strings.adb	b44eb7f9 NE OO SU
+U test_strings%b	test_strings.adb	4b7189f0 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W strings%s		strings.adb		strings.ali
@@ -49,7 +49,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D test_strings.adb	20190919173456 50871d24 test_strings%b
+D test_strings.adb	20190919174114 afb8232d test_strings%b
 G a e
 G c Z b b [test_strings standard 4 11 none]
 G r s t_string [test_strings standard 4 11 none] [t_stringIP strings 34 9 none]
@@ -57,6 +57,8 @@ G r c none [test_strings standard 4 11 none] [to_string strings 12 14 none]
 G r c none [test_strings standard 4 11 none] [init strings 11 14 none]
 G r c none [test_strings standard 4 11 none] [clear strings 10 14 none]
 G r c none [test_strings standard 4 11 none] [are_equal strings 14 13 none]
+G r c none [test_strings standard 4 11 none] [search strings 18 13 none]
+G r c none [test_strings standard 4 11 none] [search strings 25 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 25|1r6 1r23
 X 6 a-textio.ads
@@ -90,24 +92,24 @@ X 25 test_strings.adb
 54a7 Text_2{string} 61r20
 55r7 Str_1{10|8R9} 60m13 60r13 63r37
 56r7 Str_2{10|8R9} 61m13 61r13 63r44
-67U14 Test_6 67b14 80l8 80t14
+67U14 Test_6 67b14 80l8 80t14 145s4
 68a7 Text_1{string} 75r20
 69a7 Text_2{string} 76r20
 70r7 Str_1{10|8R9} 75m13 75r13 78r37
 71r7 Str_2{10|8R9} 76m13 76r13 78r44
-82U14 Test_7 82b14 94l8 94t14
+82U14 Test_7 82b14 94l8 94t14 146s4
 83a7 Text{string} 84r24 89r18
 84r7 Str{10|8R9} 89m13 89r13 90r22
 85i7 Pos{natural} 90m7 92r22
-96U14 Test_8 96b14 108l8 108t14
+96U14 Test_8 96b14 108l8 108t14 147s4
 97a7 Text{string} 98r24 103r18
 98r7 Str{10|8R9} 103m13 103r13 104r22
 99i7 Pos{natural} 104m7 106r22
-110U14 Test_9 110b14 122l8 122t14
+110U14 Test_9 110b14 122l8 122t14 148s4
 111a7 Text{string} 112r24 117r18
 112r7 Str{10|8R9} 117m13 117r13 118r22
 113i7 Pos{natural} 118m7 120r22
-124U14 Test_10 124b14 136l8 136t15
+124U14 Test_10 124b14 136l8 136t15 149s4
 125a7 Text{string} 126r24 131r18
 126r7 Str{10|8R9} 131m13 131r13 132r22
 127i7 Pos{natural} 132m7 134r22

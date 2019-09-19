@@ -40,7 +40,11 @@ package body Strings is
       Value : Character) return Natural
    is
    begin
-
+      for I in 1..Str.Length loop
+         if Str.Buffer(I) = Value then
+            return I;
+         end if;
+      end loop;
       return 0;
    end Search;
 

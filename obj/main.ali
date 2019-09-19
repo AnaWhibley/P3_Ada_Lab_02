@@ -14,7 +14,7 @@ P ZX
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		cb31c592 NE OO SU
+U main%b		main.adb		340efb9b NE OO SU
 W test_strings%b	test_strings.adb	test_strings.ali
 
 D ada.ads		20190518041256 76789da1 ada%s
@@ -42,7 +42,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D test_strings.adb	20190919173456 50871d24 test_strings%b
+D test_strings.adb	20190919174114 afb8232d test_strings%b
 G a e
 G c Z b b [main standard 7 11 none]
 G r c none [main standard 7 11 none] [test_strings standard 4 11 none]

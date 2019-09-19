@@ -1,5 +1,0 @@
-test_strings.adb:67:14: warning: procedure "Test_6" is not referenced
-test_strings.adb:82:14: warning: procedure "Test_7" is not referenced
-test_strings.adb:96:14: warning: procedure "Test_8" is not referenced
-test_strings.adb:110:14: warning: procedure "Test_9" is not referenced
-test_strings.adb:124:14: warning: procedure "Test_10" is not referenced
