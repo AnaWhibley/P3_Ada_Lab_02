@@ -45,6 +45,8 @@ function Binary_Search
       midIndex : Integer;
    begin
       while firstIndex <= lastIndex loop
+         ----7 cosas, index 1 a 8
+         ---1 2 3 4 5 6 7 8 9
          midIndex := (firstIndex + lastIndex) / 2;
          if Table(midIndex) < Value then
             firstIndex := midIndex + 1;

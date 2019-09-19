@@ -1,2 +1,0 @@
-strings.adb:52:07: warning: formal parameter "Str" is not referenced
-strings.adb:53:07: warning: formal parameter "Value" is not referenced

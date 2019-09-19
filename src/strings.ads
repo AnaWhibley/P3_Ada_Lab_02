@@ -22,7 +22,7 @@ package Strings is
    --  the first occurrence of Value. Return 0 if the character is
    --  not found.
 
-   function Search
+   function Search2
      (Str   : T_String;
       Value : String) return Natural;
    --  Scanning the text Str from left to right, return the index of

@@ -115,7 +115,7 @@ procedure Test_Strings is
       Put ("Test_9: Search string (found) .......... ");
 
       Init (Str, Text);
-      Pos := Search (Str, "Ada");
+      Pos := Search2 (Str, "Ada");
 
       pragma Assert (Pos = 7);
       Put_Line ("OK");
@@ -129,7 +129,7 @@ procedure Test_Strings is
       Put ("Test_10: Search string (not found) ...... ");
 
       Init (Str, Text);
-      Pos := Search (Str, "XXX");
+      Pos := Search2 (Str, "XXX");
 
       pragma Assert (Pos = 0);
       Put_Line ("OK");

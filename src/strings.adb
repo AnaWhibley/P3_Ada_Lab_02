@@ -1,3 +1,5 @@
+with Strings;     use Strings;
+
 package body Strings is
 
    procedure Clear (Str : in out T_String) is
@@ -48,12 +50,23 @@ package body Strings is
       return 0;
    end Search;
 
-   function Search
+
+   function Search2
      (Str   : T_String;
       Value : String) return Natural
    is
    begin
+      if Str.Length < Value'Length then
+         return 0;
+      end if;
+
+      for I in 1..Str.Length - Value'Length + 1 loop
+         if Str.Buffer(I..Value'Length+I-1) = Value then
+            return I;
+         end if;
+      end loop;
       return 0;
-   end Search;
+   end Search2;
+
 
 end Strings;

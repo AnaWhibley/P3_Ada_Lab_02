@@ -2,35 +2,19 @@
 <Locations >
   <Project>
     <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_file>
-    <file_marker column=" 9" line=" 15" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 17" >
+    <file_marker column=" 2" line=" 149" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\test_strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 18" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 14" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\tables.adb</vfs_file>
-    </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 12" >
+    <file_marker column=" 53" line=" 60" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
@@ -38,137 +22,45 @@
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 16" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 14" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 61" line=" 8" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 13" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 14" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 5" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 5" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 14" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
+      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\tables.adb</vfs_file>
+      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 16" >
+    <file_marker column=" 6" line=" 54" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 16" >
+    <file_marker column=" 9" line=" 55" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 34" >
-      <vfs_project />
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 5" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 9" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 17" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 16" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 9" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 25" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 10" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 14" >
+    <file_marker column=" 4" line=" 148" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\test_strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 29" >
+    <file_marker column=" 14" line=" 110" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\test_strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 32" >
+    <file_marker column=" 17" line=" 117" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\test_strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 29" >
+    <file_marker column=" 1" line=" 10" >
+      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
+      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 117" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
       <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\test_strings.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 18" line=" 11" >
+    <file_marker current="true" column=" 1" line=" 10" >
       <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 7" line=" 9" >
-      <vfs_project>C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr</vfs_project>
-      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\strings.adb</vfs_file>
+      <vfs_file>C:\Users\Ana\Desktop\P3\Ada_Lab_02\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
