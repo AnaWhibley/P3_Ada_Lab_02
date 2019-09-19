@@ -177,14 +177,14 @@ begin
    Test_7;
    Test_8;
    Test_9;
-     Test_10;
-     Test_11;
-     Test_12;
-     Test_13;
-     Test_14;
-     Test_15;
-     Test_16;
-     Test_17;
+   Test_10;
+   Test_11;
+   Test_12;
+   Test_13;
+   Test_14;
+   Test_15;
+   Test_16;
+   Test_17;
 
    --  Add here calls to your new tests
    --  ...

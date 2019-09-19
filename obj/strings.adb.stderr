@@ -1,0 +1,4 @@
+strings.adb:39:07: warning: formal parameter "Str" is not referenced
+strings.adb:40:07: warning: formal parameter "Value" is not referenced
+strings.adb:48:07: warning: formal parameter "Str" is not referenced
+strings.adb:49:07: warning: formal parameter "Value" is not referenced

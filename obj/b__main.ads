@@ -37,14 +37,14 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#525edd18#;
+   u00001 : constant Version_32 := 16#cb31c592#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
    u00003 : constant Version_32 := 16#35869f17#;
    pragma Export (C, u00003, "system__standard_libraryS");
-   u00004 : constant Version_32 := 16#256b7414#;
-   pragma Export (C, u00004, "test_tablesB");
+   u00004 : constant Version_32 := 16#b44eb7f9#;
+   pragma Export (C, u00004, "test_stringsB");
    u00005 : constant Version_32 := 16#76789da1#;
    pragma Export (C, u00005, "adaS");
    u00006 : constant Version_32 := 16#f4e097a7#;
@@ -265,14 +265,14 @@ package ada_main is
    pragma Export (C, u00113, "system__finalization_rootS");
    u00114 : constant Version_32 := 16#cf3f1b90#;
    pragma Export (C, u00114, "system__file_control_blockS");
-   u00115 : constant Version_32 := 16#52f1910f#;
-   pragma Export (C, u00115, "system__assertionsB");
-   u00116 : constant Version_32 := 16#ff2dadac#;
-   pragma Export (C, u00116, "system__assertionsS");
-   u00117 : constant Version_32 := 16#35584fca#;
-   pragma Export (C, u00117, "tablesB");
-   u00118 : constant Version_32 := 16#7c0b37a8#;
-   pragma Export (C, u00118, "tablesS");
+   u00115 : constant Version_32 := 16#f534be87#;
+   pragma Export (C, u00115, "stringsB");
+   u00116 : constant Version_32 := 16#4a3d7fb0#;
+   pragma Export (C, u00116, "stringsS");
+   u00117 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00117, "system__assertionsB");
+   u00118 : constant Version_32 := 16#ff2dadac#;
+   pragma Export (C, u00118, "system__assertionsS");
    u00119 : constant Version_32 := 16#e31b7c4e#;
    pragma Export (C, u00119, "system__memoryB");
    u00120 : constant Version_32 := 16#6bdde70c#;
@@ -395,9 +395,9 @@ package ada_main is
    --  ada.text_io%b
    --  system.assertions%s
    --  system.assertions%b
-   --  tables%s
-   --  tables%b
-   --  test_tables%b
+   --  strings%s
+   --  strings%b
+   --  test_strings%b
    --  main%b
    --  END ELABORATION ORDER
 
