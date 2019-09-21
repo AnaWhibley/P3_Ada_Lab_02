@@ -2,17 +2,23 @@ package body Stacks is
 
    procedure Clear (Stack : out Stack_Type) is
    begin
-      null;
+      Stack.Length := 0;
    end Clear;
 
    function Is_Empty (Stack : Stack_Type) return Boolean is
    begin
-      return True;
+      if Stack.Contents'Length = 0 then
+         return True;
+      end if;
+      return False;
    end Is_Empty;
 
    function Is_Full  (Stack : Stack_Type) return Boolean is
    begin
-      return True;
+      if Stack.Contents'Last = 0 then
+         return True;
+      end if;
+      return False;
    end Is_Full;
 
    procedure Push (Stack : in out Stack_Type;

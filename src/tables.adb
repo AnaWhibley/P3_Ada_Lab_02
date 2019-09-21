@@ -62,16 +62,45 @@ function Binary_Search
    procedure Swap
      (A : in out Integer;
       B : in out Integer) is
+      C : Integer;
    begin
-      null;
+      C := A;
+      A := B;
+      B := C;
    end Swap;
 
    procedure Swap
      (Table : in out T_Table;
       Pos_1 : in     Natural;
       Pos_2 : in     Natural) is
+--        A : Integer;
+--        B : Integer;
+      C : Integer;
    begin
-      null;
+
+--          for I in Table'Range loop
+--             if (I = Pos_1) then
+--                A := Table(I);
+--             elsif (I = Pos_2) then
+--                B := Table(I);
+--              end if;
+--          end loop;
+--
+--
+--           C := A;
+--
+--           for J in Table'Range loop
+--              if (J = Pos_1) then
+--                Table(J) := B;
+--             elsif (J = Pos_2) then
+--                Table(J) := C;
+--             end if;
+--        end loop;
+
+      C := Table(Pos_1);
+      Table(Pos_1) := Table(Pos_2);
+      Table(Pos_2) := C;
+
    end Swap;
 
    procedure Bubble_Sort (Table : in out T_Table) is

@@ -5,14 +5,12 @@ package body Strings is
    procedure Clear (Str : in out T_String) is
    begin
       Str.Length:=0;
-      null;
    end Clear;
 
    procedure Init (Str : in out T_String; Value : String) is
    begin
       Str.Length := Value'Length;
       Str.Buffer (1..Str.Length) := Value;
-      null;
    end Init;
 
    function To_String (Str : T_String) return String is
