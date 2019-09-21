@@ -4,8 +4,8 @@ b__main.o
 C:\Users\Ana\Desktop\P3\Ada_Lab_02\default.gpr
 20190918174810
 [BOUND OBJECT FILES]
-C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\strings.o
-C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\test_strings.o
+C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\tables.o
+C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\test_tables.o
 C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

@@ -28,8 +28,8 @@ package body ada_main is
    E111 : Short_Integer; pragma Import (Ada, E111, "ada__finalization_E");
    E110 : Short_Integer; pragma Import (Ada, E110, "system__file_io_E");
    E007 : Short_Integer; pragma Import (Ada, E007, "ada__text_io_E");
-   E118 : Short_Integer; pragma Import (Ada, E118, "system__assertions_E");
-   E116 : Short_Integer; pragma Import (Ada, E116, "strings_E");
+   E116 : Short_Integer; pragma Import (Ada, E116, "system__assertions_E");
+   E118 : Short_Integer; pragma Import (Ada, E118, "tables_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -202,8 +202,8 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E007 := E007 + 1;
       System.Assertions'Elab_Spec;
-      E118 := E118 + 1;
       E116 := E116 + 1;
+      E118 := E118 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -239,8 +239,8 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\strings.o
-   --   C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\test_strings.o
+   --   C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\tables.o
+   --   C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\test_tables.o
    --   C:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\main.o
    --   -LC:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\
    --   -LC:\Users\Ana\Desktop\P3\Ada_Lab_02\obj\
