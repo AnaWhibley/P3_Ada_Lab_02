@@ -160,11 +160,60 @@ procedure Test_Tables is
       Put_Line ("OK");
    end Test_17;
 
-   --  Write here your unit tests to check:
+      --  Write here your unit tests to check:
    --    * The two versions of Swap
    --    * All the sorting routines (Bubble_Sort, Selection_Sort,
    --      Insertion_Sort, Shell_Sort, Merge_Sort, Quick_Sort)
    --  ...
+
+   procedure Test_18 is
+      A : Integer := 2;
+      B : Integer := 9;
+   begin
+      Put ("Test_18: Swap .................. ");
+      Swap(A,B);
+      pragma Assert (A = 9 and then B = 2);
+      Put_Line ("OK");
+      --Put_Line(Integer'Image(A));
+      --Put_Line(Integer'Image(B));
+   end Test_18;
+
+   procedure Test_19 is
+      Table : T_Table (1 .. 5) := (1, 2, 3, 4, 5);
+      Pos_1 : constant Integer := 1;
+      Pos_2 : constant Integer := 5;
+   begin
+      Put ("Test_19: Swap .................. ");
+      --Put_Line(Integer'Image(Table(Pos_1)));
+      --Put_Line(Integer'Image(Table(Pos_2)));
+      Swap(Table, Pos_1, Pos_2);
+      pragma Assert (Table(Pos_1) = 5 and then Table(Pos_2) = 1);
+      Put_Line ("OK");
+      --Put_Line(Integer'Image(Table(Pos_1)));
+      --Put_Line(Integer'Image(Table(Pos_2)));
+   end Test_19;
+
+   procedure Test_20 is
+      Table : T_Table (1 .. 5) := (11, 12, 13, 14, 15);
+      Pos_1 : constant Integer := 2;
+      Pos_2 : constant Integer := 4;
+   begin
+      Put ("Test_20: Swap .................. ");
+      Swap(Table, Pos_1, Pos_2);
+      pragma Assert (Table(Pos_1) = 14 and then Table(Pos_2) = 12);
+      Put_Line ("OK");
+   end Test_20;
+
+   procedure Test_21 is
+      Table : T_Table (21 .. 26) := (11, 12, 13, 14, 15, 16);
+      Pos_1 : constant Integer := 25;
+      Pos_2 : constant Integer := 26;
+   begin
+      Put ("Test_21: Swap .................. ");
+      Swap(Table, Pos_1, Pos_2);
+      pragma Assert (Table(Pos_1) = 16 and then Table(Pos_2) = 15);
+      Put_Line ("OK");
+   end Test_21;
 
 begin
    Put_Line ("********************* Test_Tables");
@@ -185,6 +234,10 @@ begin
    Test_15;
    Test_16;
    Test_17;
+   Test_18;
+   Test_19;
+   Test_20;
+   Test_21;
 
    --  Add here calls to your new tests
    --  ...
