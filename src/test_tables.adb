@@ -215,6 +215,60 @@ procedure Test_Tables is
       Put_Line ("OK");
    end Test_21;
 
+   procedure Test_22 is
+      Table : T_Table (1 .. 5) := (12, 11, 13, 14, 15);
+   begin
+      Put ("Test_22: Bubble Sort .................. ");
+      Bubble_Sort(Table);
+      pragma Assert (Table(1 .. 5) = (11, 12, 13, 14, 15));
+      Put_Line ("OK");
+   end Test_22;
+
+   procedure Test_23 is
+      Table : T_Table (1 .. 5) := (50, 30, 40, 20, 10);
+   begin
+      Put ("Test_23: Bubble Sort .................. ");
+      Bubble_Sort(Table);
+      pragma Assert (Table(1 .. 5) = (10, 20, 30, 40, 50));
+      Put_Line ("OK");
+   end Test_23;
+
+   procedure Test_24 is
+      Table : T_Table (21 .. 26) := (66, 55, 44, 33, 22, 11);
+   begin
+      Put ("Test_24: Bubble Sort .................. ");
+      Bubble_Sort(Table);
+      pragma Assert (Table(21 .. 26) = (11, 22, 33, 44, 55, 66));
+      Put_Line ("OK");
+   end Test_24;
+
+   procedure Test_25 is
+      Table : T_Table (1 .. 5) := (12, 11, 13, 14, 15);
+   begin
+      Put ("Test_25: Selection Sort .................. ");
+      Selection_Sort(Table);
+      pragma Assert (Table(1 .. 5) = (11, 12, 13, 14, 15));
+      Put_Line ("OK");
+   end Test_25;
+
+   procedure Test_26 is
+      Table : T_Table (1 .. 5) := (50, 30, 40, 20, 10);
+   begin
+      Put ("Test_26: Selection Sort .................. ");
+      Selection_Sort(Table);
+      pragma Assert (Table(1 .. 5) = (10, 20, 30, 40, 50));
+      Put_Line ("OK");
+   end Test_26;
+
+   procedure Test_27 is
+      Table : T_Table (21 .. 26) := (66, 55, 44, 33, 22, 11);
+   begin
+      Put ("Test_27: Selection Sort .................. ");
+      Selection_Sort(Table);
+      pragma Assert (Table(21 .. 26) = (11, 22, 33, 44, 55, 66));
+      Put_Line ("OK");
+   end Test_27;
+
 begin
    Put_Line ("********************* Test_Tables");
    Test_1;
@@ -238,6 +292,12 @@ begin
    Test_19;
    Test_20;
    Test_21;
+   Test_22;
+   Test_23;
+   Test_24;
+   Test_25;
+   Test_26;
+   Test_27;
 
    --  Add here calls to your new tests
    --  ...

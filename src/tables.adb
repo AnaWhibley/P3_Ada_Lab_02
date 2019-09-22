@@ -14,7 +14,6 @@ package body Tables is
 
    function Pos_Minimum (Table : T_Table) return Natural is
       min : Integer := Table(1);
-      --min : Integer := Table(Table'First);
       pos : Integer := 1;
    begin
       for I in Table'Range loop
@@ -45,8 +44,6 @@ function Binary_Search
       midIndex : Integer;
    begin
       while firstIndex <= lastIndex loop
-         ----7 cosas, index 1 a 8
-         ---1 2 3 4 5 6 7 8 9
          midIndex := (firstIndex + lastIndex) / 2;
          if Table(midIndex) < Value then
             firstIndex := midIndex + 1;
@@ -73,29 +70,8 @@ function Binary_Search
      (Table : in out T_Table;
       Pos_1 : in     Natural;
       Pos_2 : in     Natural) is
---        A : Integer;
---        B : Integer;
       C : Integer;
    begin
-
---          for I in Table'Range loop
---             if (I = Pos_1) then
---                A := Table(I);
---             elsif (I = Pos_2) then
---                B := Table(I);
---              end if;
---          end loop;
---
---
---           C := A;
---
---           for J in Table'Range loop
---              if (J = Pos_1) then
---                Table(J) := B;
---             elsif (J = Pos_2) then
---                Table(J) := C;
---             end if;
---        end loop;
 
       C := Table(Pos_1);
       Table(Pos_1) := Table(Pos_2);
@@ -105,7 +81,21 @@ function Binary_Search
 
    procedure Bubble_Sort (Table : in out T_Table) is
    begin
-      null;
+--        for I in 1..Table'Length loop
+--           for J in 2..Table'Length-I loop
+--              if Table(J-1) > Table(J) then
+--                 Swap(Table, J-1, J);
+--              end if;
+--           end loop;
+--        end loop;
+
+      for I in reverse Table'Range loop
+       for J in Table'First .. I loop
+          if Table(I) < Table(J) then
+             Swap(Table, J, I);
+          end if;
+       end loop;
+    end loop;
    end Bubble_Sort;
 
    procedure Selection_Sort (Table : in out T_Table) is
