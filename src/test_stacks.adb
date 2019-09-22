@@ -7,7 +7,6 @@ procedure Test_Stacks is
       Stack : Stack_Type;
    begin
       Put ("Test_1: Empty stack ..................... ");
-
       pragma Assert (Is_Empty (Stack));
       Put_Line ("OK");
    end Test_1;

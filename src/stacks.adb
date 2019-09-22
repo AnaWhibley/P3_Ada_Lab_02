@@ -2,12 +2,14 @@ package body Stacks is
 
    procedure Clear (Stack : out Stack_Type) is
    begin
-      Stack.Length := 0;
+      for I in 1..Stack.Contents'Last loop
+         Stack.Contents(I) := 0;
+      end loop;
    end Clear;
 
    function Is_Empty (Stack : Stack_Type) return Boolean is
    begin
-      if Stack.Contents'Length = 0 then
+      if Stack.Contents(1) = 0 then
          return True;
       end if;
       return False;
@@ -15,7 +17,7 @@ package body Stacks is
 
    function Is_Full  (Stack : Stack_Type) return Boolean is
    begin
-      if Stack.Contents'Last = 0 then
+      if Stack.Length = Max then
          return True;
       end if;
       return False;
@@ -24,7 +26,11 @@ package body Stacks is
    procedure Push (Stack : in out Stack_Type;
                    Item  : in     Integer) is
    begin
-      null;
+      if Is_Empty(Stack) then
+         Stack.Contents(1) := Item;
+      end if;
+      Stack.Contents(1) := Stack.Contents(1) + 1;
+      Stack.Contents(1) := Item;
    end Push;
 
    procedure Pop (Stack : in out Stack_Type;
@@ -35,7 +41,7 @@ package body Stacks is
 
    function Top (Stack : Stack_Type) return Integer is
    begin
-      return -1;
+      return Stack.Contents(1);
    end Top;
 
 end Stacks;
