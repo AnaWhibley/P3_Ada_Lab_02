@@ -81,21 +81,7 @@ function Binary_Search
 
    procedure Bubble_Sort (Table : in out T_Table) is
    begin
---        for I in 1..Table'Length loop
---           for J in 2..Table'Length-I loop
---              if Table(J-1) > Table(J) then
---                 Swap(Table, J-1, J);
---              end if;
---           end loop;
---        end loop;
-
-      for I in reverse Table'Range loop
-       for J in Table'First .. I loop
-          if Table(I) < Table(J) then
-             Swap(Table, J, I);
-          end if;
-       end loop;
-    end loop;
+      null;
    end Bubble_Sort;
 
    procedure Selection_Sort (Table : in out T_Table) is
